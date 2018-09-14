@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang="pl-PL">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://use.fontawesome.com/7be46c39d7.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<title>Lorem ipsum company</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			
+$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("#main-site").on('click', function(event) {
+
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+		  // Prevent default anchor click behavior
+		  event.preventDefault();
+
+		  // Store hash
+		  var hash = this.hash;
+		  // Using jQuery's animate() method to add smooth page scroll
+		  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		 	$('html,body').animate({
+			scrollTop: $(hash).offset().top
+		  }, 800, function(){
+
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			window.location.hash = hash;
+		  });
+		} // End if
+	  });
+	});
+			
+$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("#about-us").on('click', function(event) {
+
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+		  // Prevent default anchor click behavior
+		  event.preventDefault();
+
+		  // Store hash
+		  var hash = this.hash;
+
+		  // Using jQuery's animate() method to add smooth page scroll
+		  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		  $('html, body').animate({
+			scrollTop: $(hash).offset().top
+		  }, 800, function(){
+
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			window.location.hash = hash;
+		  });
+		} // End if
+	  });
+	});
+	
+$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("#contact").on('click', function(event) {
+
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+		  // Prevent default anchor click behavior
+		  event.preventDefault();
+
+		  // Store hash
+		  var hash = this.hash;
+
+		  // Using jQuery's animate() method to add smooth page scroll
+		  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		  $('html, body').animate({
+			scrollTop: $(hash).offset().top
+		  }, 800, function(){
+
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			window.location.hash = hash;
+		  });
+		} // End if
+	  });
+	});	
+	
+	
+		</script>
+	</head>
+	<body>
+		<section id="main-site-section">
+					<div class="container">
+						<div id="top-bar-container" class="container">
+							<div id="branding"><h1>Lorem</h1></div>
+							<ul id="navbar">
+								<li><a href="#main-site-section" id="main-site">Strona główna</a></li>
+								<li><a href="#about-us-section" id="about-us"> O nas</a></li>
+								<li><a href="#contact-section" id="contact">Kontakt</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="cxt container">
+					<div id="home-page-description-box">
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					</div>
+					</section>
+					<section id="about-us-section">
+						<div class="boxes container">
+							<div class="box"><img src="icon.png"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
+							<div class="box"><img src="icon.png"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
+							<div class="box"><img src="icon.png"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
+						</div>
+					</section>
+			
+			
+				<div class="img-bar container">
+				</div>
+			<section id="contact-section">
+				<div class="contact-container container">
+					<div class="contact-box"><p>If you are interested in any of
+						our products fell free to <strong>contact us!</strong></p>
+					</div>
+					<div class="icons-and-numbers">
+						<div class="phone">
+							<i class="fa fa-phone fa-lg" aria-hidden="true"></i><p>0700880</p>
+						</div>
+						<div class="mail">
+							<i class="fa fa-envelope fa-lg" aria-hidden="true"></i><p>keszokok@gmail.com</p>
+						</div>
+						<div class="fax">
+							<i class="fa fa-fax fa-lg" aria-hidden="true"></i><p>0700880909382</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		<div class="footer"><p>Lorem Ipsum company &copy; 2017</p>
+		</div>
+		
+		
+			
+	</body>
+</html>
